@@ -44,7 +44,7 @@ Console.WriteLine("Введите минимальное значение эле
 int minEl = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите максимальное значение элемента в массиве.");
 int maxEl = Convert.ToInt32(Console.ReadLine());
-Console.Write($"Разница между максимальным и минимальным элементами в массиве ");
+Console.Write($"Разница между максимальным и минимальным значениями элементов в массиве ");
 double[]newArray = CreateArrayDouble (number, minEl, maxEl);
 PrintArray(newArray);
 double result = DifferenceNumMaxMin(newArray);
